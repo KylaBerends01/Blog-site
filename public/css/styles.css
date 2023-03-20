@@ -1,0 +1,52 @@
+:root {
+    --bs-font-sans-serif:'Rubik', sans-serif;
+}
+
+.container-xxl{
+    max-width: 1200px;
+}
+
+body{
+    background-image: url("https://i.ibb.co/0XrjhxB/i-like-cameras.png");
+    background-repeat: repeat;
+    background-color: rgb(243,243,243);
+}
+
+a {
+    color: var(--bs-dark);
+}
+
+/* Category cards */
+
+.category__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 250ms all;
+}
+
+.category__link:hover{
+    transform: scale(1.1);
+    color:#1F396E;
+}
+
+.category__img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100px;
+    margin-bottom:10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.category__img--large{
+    height:330px;
+}
+
+.category__img img{
+    width:110%;
+    object-fit: cover;
+}
+
